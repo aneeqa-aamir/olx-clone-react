@@ -1,0 +1,126 @@
+/* Header.css */
+
+.olx-header {
+    background-color:  #f7f8f8;
+    color: rgb(12, 12, 12);
+    padding: 10px 0;
+    width: 100%;
+  }
+  
+  .olx-header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* max-width: 1200px; */
+    width: 100%;
+    margin: 0 auto;
+    padding:5px 20px 5px 20px;
+  }
+  
+  .olx-logo {
+    height: 40px;
+    background-color: #606566;
+  }
+  .olx-logo img {
+    height: 40px;
+    background-color: #606566;
+    
+  }
+  
+  .olx-search {
+    flex-grow: 2;
+    margin: 0 20px;
+    display: flex;
+
+  }
+  
+  .olx-search input {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #002f34;
+    border-radius: 5px;
+  }
+  
+  .olx-search button {
+    background-color: #d81212;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login {
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    /* margin-left: 0px; */
+    cursor: pointer;
+    font-weight:bold;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+  }
+  
+  .sell{
+    border-style: solid;
+    border-width: 5px;
+    border-top-color: #23e5db;
+    border-right-color: #3a77ff;
+    border-left-color: #ffce32;
+    border-top-color: #3a77ff;
+    border-radius: 30px;
+    background-color: #ffff;
+    font-size: 20px;
+    padding: 0px 19px;
+    font-weight: bold;
+    color: black;
+    width: 110px;
+    /* margin: 20px; */
+    margin-right: 20px;
+  }
+
+  .parent{
+    display:block;
+    border: 1px solid black;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    right: 130px;
+    border-radius: 6px;
+    background-color: white;
+    display: none;
+
+
+  }
+
+   .pdata ul{
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    position: relative;
+    top: 10px;
+    color: black;
+    gap: 20px;
+    font-size: 14;
+  
+  }
+
+  .olx-actions:hover .parent{
+    display: block;
+  }
+  
+  
+  .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+  }
+  
+  
+  /* Additional styling for responsiveness or other features can be added here */
+  

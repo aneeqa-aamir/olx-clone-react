@@ -1,0 +1,100 @@
+/* Appropriate styling for your Detail component */
+
+.container {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   
+  }
+  
+  .imag {
+    width:800px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: rgb(16, 15, 15);
+    overflow: hidden;
+  }
+  
+  .imag img {
+    width: 80%;
+  }
+  
+  .detail {
+    width: 800px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 0;
+    border: 1px solid rgb(203, 200, 200);
+    border-radius: 10px;
+  }
+  
+  .left {
+    color: #002f34;
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  .profile {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    /* position: relative; */
+    /* right: 150px; */
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    /* position: relative;
+    top: 50px;
+    left: 10px; */
+  }
+  
+  .main2 {
+    width: 400px;
+    border: 1px solid rgb(228, 223, 223);
+    border-radius: 5px;
+    /* align-items: left; */
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+    flex-direction: row;
+    align-items: center;
+
+    /* margin-left: 500px; */
+  }
+  .prof-detail{
+display: flex;
+justify-content: start;
+width: 200px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* position: relative; */
+    /* left: 0px; */
+    /* bottom: 100px; */
+  }
+  
+  li h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  li p {
+    margin: 0;
+    color: #666;
+  }
+  
+  li h3 {
+    margin: 0;
+    color: #002f34;
+    cursor: pointer;
+  }
+  
